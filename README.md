@@ -13,20 +13,25 @@ This dataset contains a large number of car images (as .jpg files). Each car has
 For the training set, you are provided a .gif file that contains the manually cutout mask for each image.
 
 ### Examples
-<img src="./examples/car_image.jpg" width="100%" alt="Teaser">
+<img src="./examples/car_image.jpg" width="100%" alt="Samples">
 
 ### Task
 To develop an algorithm that automatically removes the photo studio background. This will allow Carvana to superimpose cars on a variety of backgrounds. You’ll be analyzing a dataset of photos, covering different vehicles with a wide variety of year, make, and model combinations.
 
 ## FrameWork
-<img src="./examples/model_arch.png" width="100%" alt="Teaser">
+<img src="./examples/model_arch.png" width="100%" alt="Model">
 
 ## Best Results
 ### Loss Curve
-<img src="./examples/loss_curve.png" width="100%" alt="Teaser">
+<img src="./examples/loss_curve.png" width="100%" alt="Curve">
 
 ### Mean-Intersection-over-Union (MIoU) curve
-<img src="./examples/miou_curve.png" width="100%" alt="Teaser">
+<img src="./examples/miou_curve.png" width="100%" alt="Curve">
+
+### Sample Predictions with new background of input images
+<img src="./examples/predict_01.png" width="100%" alt="Predict">
+<img src="./examples/predict_02.png" width="100%" alt="Predict">
+<img src="./examples/predict_03.png" width="100%" alt="Predict">
 
 ### Conclusion
 Here, I got 98.09% Mean-Intersection-over-Union on validation set after 50 epochs. Still there is chance of increase in validation MeanIoU in further training.
